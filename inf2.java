@@ -1,7 +1,7 @@
 
 package informatic;
 import java.util.Scanner;
-public class inf1 {
+public class inf2 {
 	public static void main(String[] args) {
     	Scanner sc = new Scanner(System.in);
     	String massopt = sc.next();
