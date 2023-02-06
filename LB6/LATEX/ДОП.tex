@@ -1,0 +1,305 @@
+\documentclass[8pt, letterpaper]{article}
+\usepackage[utf8x]{inputenc}
+\usepackage[russian]{babel}
+\usepackage{graphicx}
+\graphicspath{{pictures/}}
+\usepackage{multicol}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{tikz}
+\usetikzlibrary {angles,quotes}
+\usetikzlibrary {calc}
+\usepackage{mathtools}
+\usepackage{fancyhdr} 
+\input{insbox}
+
+\usepackage{fancyhdr} 
+
+\fancypagestyle{firststyle}
+{
+\fancyfootoffset[R]{-12cm} 
+\fancyhead[C]{КНИГА I ПРЕДЛ. XXV. ТЕОРЕМА \quad \quad \quad 49}
+\renewcommand{\footrulewidth}{0.0 mm} 
+\renewcommand{\headrulewidth}{0.0 mm}
+\setlength{\headheight}{80pt}
+\fancyfoot[R]{\thepage}
+}
+\begin{document}
+\thispagestyle{firststyle}
+\linespread{1.5}
+\flushleft
+\begin{multicols}{2}
+\InsertBoxL{0}{\includegraphics[scale=0.6]{Screenshot_4.png}}
+сли у двух треугольников две стороны
+\tiny
+\begin{tikzpicture}[line width=2pt]
+
+\coordinate [label=above:$A$] (A) at (0,0);
+\coordinate [label=above:$B$] (B) at (1, 0);
+
+\draw [-, cyan] (A) -- (B);
+
+\end{tikzpicture}
+\footnotesize
+и
+\tiny
+\begin{tikzpicture}[line width=2pt]
+
+\coordinate [label=above:$C$] (A) at (0,0);
+\coordinate [label=above:$A$] (B) at (1, 0);
+
+\draw [-, yellow] (A) -- (B);
+
+\end{tikzpicture}
+\footnotesize
+соответственно равны двум сторонам
+\tiny
+\begin{tikzpicture}[line width=1.5pt]
+
+\coordinate [label=above:$D$] (A) at (0,0);
+\coordinate [label=above:$E$] (B) at (1, 0);
+
+\draw [-, cyan] (A) -- (B);
+
+\end{tikzpicture}
+\footnotesize
+и
+\tiny
+\begin{tikzpicture}[line width=1.5pt]
+
+\coordinate [label=above:$F$] (A) at (0,0);
+\coordinate [label=above:$D$] (B) at (1, 0);
+
+\draw [-, yellow] (A) -- (B);
+
+\end{tikzpicture}
+\footnotesize
+другого, но основания неравны, то угол над большим основанием
+\tiny
+\begin{tikzpicture}[line width=2pt]
+
+\coordinate [label=above:$B$] (A) at (0,0);
+\coordinate [label=above:$C$] (B) at (1, 0);
+
+\draw [-, black] (A) -- (B);
+
+\end{tikzpicture}
+\footnotesize
+одного треугольника меньше угла под меньшим
+\tiny
+\begin{tikzpicture}[line width=1.5pt]
+
+\coordinate [label=above:$E$] (A) at (0,0);
+\coordinate [label=above:$F$] (B) at (1, 0);
+
+\draw [-, yellow] (A) -- (B);
+
+\end{tikzpicture}
+\footnotesize
+другого.\\
+\setlength\parindent{100pt}
+\linespread{2}
+\tiny
+\begin{tikzpicture}[scale=3]
+
+  \filldraw[fill=yellow,draw=yellow] (0.08,0) -- (1.5mm,-2.6mm)
+      arc [start angle=-79, end angle=-105, radius=4mm]-- cycle;
+\coordinate [label=above:$A$] (B) at (0.08,0);
+\coordinate [label=below:$B$] (B) at (1.5mm,-2.6mm);
+\coordinate [label=below:$C$] (B) at (-0.5mm,-2.6mm);
+\end{tikzpicture}
+\footnotesize
+= , >или <
+\tiny
+\begin{tikzpicture}[scale=3]
+
+  \filldraw[fill=black,draw=black] (0.08,0) -- (1.1mm,-2.6mm)
+      arc [start angle=-79, end angle=-105, radius=4mm]-- cycle;
+\coordinate [label=above:$D$] (B) at (0.08,0);
+\coordinate [label=below:$E$] (B) at (1.5mm,-2.6mm);
+\coordinate [label=below:$F$] (B) at (-1mm,-2.6mm);
+\end{tikzpicture}
+\footnotesize\\
+\tiny
+\begin{tikzpicture}[scale=3]
+
+  \filldraw[fill=yellow,draw=yellow] (0.08,0) -- (1.5mm,-2.6mm)
+      arc [start angle=-79, end angle=-105, radius=4mm]-- cycle;
+\coordinate [label=above:$A$] (B) at (0.08,0);
+\coordinate [label=below:$B$] (B) at (1.5mm,-2.6mm);
+\coordinate [label=below:$C$] (B) at (-0.5mm,-2.6mm);
+\end{tikzpicture}
+\footnotesize
+не равен
+\tiny
+\begin{tikzpicture}[scale=3]
+
+  \filldraw[fill=black,draw=black] (0.08,0) -- (1.1mm,-2.6mm)
+      arc [start angle=-79, end angle=-105, radius=4mm]-- cycle;
+\coordinate [label=above:$D$] (B) at (0.08,0);
+\coordinate [label=below:$E$] (B) at (1.5mm,-2.6mm);
+\coordinate [label=below:$F$] (B) at (-1mm,-2.6mm);
+\end{tikzpicture}
+\footnotesize
+\\поскольку, если
+\tiny
+\begin{tikzpicture}[scale=3]
+
+  \filldraw[fill=yellow,draw=yellow] (0.08,0) -- (1.5mm,-2.6mm)
+      arc [start angle=-79, end angle=-105, radius=4mm]-- cycle;
+\coordinate [label=above:$A$] (B) at (0.08,0);
+\coordinate [label=below:$B$] (B) at (1.5mm,-2.6mm);
+\coordinate [label=below:$C$] (B) at (-0.5mm,-2.6mm);
+\end{tikzpicture}
+\footnotesize
+=
+\tiny
+\begin{tikzpicture}[scale=3]
+
+  \filldraw[fill=black,draw=black] (0.08,0) -- (1.1mm,-2.6mm)
+      arc [start angle=-79, end angle=-105, radius=4mm]-- cycle;
+\coordinate [label=above:$D$] (B) at (0.08,0);
+\coordinate [label=below:$E$] (B) at (1.5mm,-2.6mm);
+\coordinate [label=below:$F$] (B) at (-1mm,-2.6mm);
+\end{tikzpicture}
+\footnotesize
+, то
+\\\begin{tikzpicture}[line width=2pt]
+
+\coordinate [label=above:$C$] (A) at (0,0);
+\coordinate [label=above:$B$] (B) at (1, 0);
+
+\draw [-, black] (A) -- (B);
+
+\end{tikzpicture}
+=
+\begin{tikzpicture}[line width=1.5pt]
+
+\coordinate [label=above:$F$] (A) at (0,0);
+\coordinate [label=above:$E$] (B) at (1, 0);
+
+\draw [-, yellow] (A) -- (B);
+
+\end{tikzpicture}
+(пр. I.4),
+\\что противоречит гипотезе;
+\tiny
+\\\begin{tikzpicture}[scale=3]
+
+  \filldraw[fill=yellow,draw=yellow] (0.08,0) -- (1.5mm,-2.6mm)
+      arc [start angle=-79, end angle=-105, radius=4mm]-- cycle;
+\coordinate [label=above:$A$] (B) at (0.08,0);
+\coordinate [label=below:$B$] (B) at (1.5mm,-2.6mm);
+\coordinate [label=below:$C$] (B) at (-0.5mm,-2.6mm);
+\end{tikzpicture}
+\footnotesize
+не меньше
+\tiny
+\begin{tikzpicture}[scale=3]
+
+  \filldraw[fill=black,draw=black] (0.08,0) -- (1.1mm,-2.6mm)
+      arc [start angle=-79, end angle=-105, radius=4mm]-- cycle;
+\coordinate [label=above:$D$] (B) at (0.08,0);
+\coordinate [label=below:$E$] (B) at (1.5mm,-2.6mm);
+\coordinate [label=below:$F$] (B) at (-1mm,-2.6mm);
+\end{tikzpicture}
+\footnotesize
+\\поскольку если
+\tiny
+\begin{tikzpicture}[scale=3]
+
+  \filldraw[fill=yellow,draw=yellow] (0.08,0) -- (1.5mm,-2.6mm)
+      arc [start angle=-79, end angle=-105, radius=4mm]-- cycle;
+\coordinate [label=above:$A$] (B) at (0.08,0);
+\coordinate [label=below:$B$] (B) at (1.5mm,-2.6mm);
+\coordinate [label=below:$C$] (B) at (-0.5mm,-2.6mm);
+\end{tikzpicture}
+\footnotesize
+<
+\tiny
+\begin{tikzpicture}[scale=3]
+
+  \filldraw[fill=black,draw=black] (0.08,0) -- (1.1mm,-2.6mm)
+      arc [start angle=-79, end angle=-105, radius=4mm]-- cycle;
+\coordinate [label=above:$D$] (B) at (0.08,0);
+\coordinate [label=below:$E$] (B) at (1.5mm,-2.6mm);
+\coordinate [label=below:$F$] (B) at (-1mm,-2.6mm);
+\end{tikzpicture}
+\footnotesize
+, \\то
+\begin{tikzpicture}[line width=2pt]
+
+\coordinate [label=above:$C$] (A) at (0,0);
+\coordinate [label=above:$B$] (B) at (1, 0);
+
+\draw [-, black] (A) -- (B);
+
+\end{tikzpicture}
+=
+\begin{tikzpicture}[line width=1.5pt]
+
+\coordinate [label=above:$F$] (A) at (0,0);
+\coordinate [label=above:$E$] (B) at (1, 0);
+
+\draw [-, yellow] (A) -- (B);
+
+\end{tikzpicture}
+(пр. I.4),
+
+что противоречит гипотезе;
+
+\tiny
+\begin{tikzpicture}[scale=3]
+
+  \filldraw[fill=yellow,draw=yellow] (0.08,0) -- (1.5mm,-2.6mm)
+      arc [start angle=-79, end angle=-105, radius=4mm]-- cycle;
+\coordinate [label=above:$A$] (B) at (0.08,0);
+\coordinate [label=below:$B$] (B) at (1.5mm,-2.6mm);
+\coordinate [label=below:$C$] (B) at (-0.5mm,-2.6mm);
+\end{tikzpicture}
+\footnotesize
+>
+\tiny
+\begin{tikzpicture}[scale=3]
+
+  \filldraw[fill=black,draw=black] (0.08,0) -- (1.1mm,-2.6mm)
+      arc [start angle=-79, end angle=-105, radius=4mm]-- cycle;
+\coordinate [label=above:$D$] (B) at (0.08,0);
+\coordinate [label=below:$E$] (B) at (1.5mm,-2.6mm);
+\coordinate [label=below:$F$] (B) at (-1mm,-2.6mm);
+\end{tikzpicture}
+\footnotesize
+\flushright
+ч.т.д
+
+
+\begin{tikzpicture}[line width=2pt]
+
+
+\draw (0,0) coordinate (A) -- (1.5,-5) coordinate (B)
+         -- (-3,-6) coordinate (C) --cycle
+           pic [fill=yellow, angle radius=1cm]                      {angle = C--A--B};
+\draw [-,red] (B) -- (A) -- (C) -- (B);
+\draw [-, cyan,line join =mitter] (-0.03, -0.06) -- (A) -- (B);
+\draw [-, black, line join =mitter] (-2.97, -5.94)--(C) -- (B) -- (1.48, -4.95);
+\coordinate [label=above:$A$] (A) at (0,0);
+\coordinate [label=below:$B$] (B) at (1.5,-5);
+\coordinate [label=below:$C$] (C) at (-3,-6);
+
+
+\end{tikzpicture}
+\\
+\begin{tikzpicture}[line width=1.5pt]
+
+
+\draw (0,0) coordinate (A) -- (1.5,-6) coordinate (B)
+         -- (-3,-7) coordinate (C) --cycle
+           pic [fill=black, angle radius=1cm]                      {angle = C--A--B};
+\draw [-,red] (B) -- (A) -- (C) -- (B);
+\draw [-, cyan,line join =mitter] (-0.003, -0.006) -- (A) -- (B);
+\draw [-, yellow, line join =mitter] (-2.997, -6.993)--(C) -- (B) -- (1.498, -5.994);
+\coordinate [label=above:$A$] (A) at (0,0);
+\coordinate [label=below:$B$] (B) at (1.5,-6);
+\coordinate [label=below:$C$] (C) at (-3,-7);
+\end{tikzpicture}
+\end{multicols}
+\end{document}
